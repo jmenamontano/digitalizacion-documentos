@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+  <local-tx-datasource>
+    <jndi-name>DigitalizacionDS</jndi-name>
+    <connection-url>jdbc:postgresql://localhost:5432/gestion_documentos</connection-url>
+    <driver-class>org.postgresql.Driver</driver-class>
+    <user-name>postgres</user-name>
+    <password>postgres</password>
+      <metadata>
+         <type-mapping>PostgreSQL 9.2</type-mapping>
+      </metadata>
+  </local-tx-datasource>
+</datasources>
+ 
